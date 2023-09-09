@@ -9,7 +9,7 @@ function calculateArea(a,b){
 
 function triangleArea(){
     const areaOfTriangles = calculateArea(Number(sides[0].value),Number(sides[1].value));
-    output.innerText=` the area of the triangle is ${areaOfTriangles}units`;
+    output.innerText=` the area of the triangle is ${areaOfTriangles} units`;
 
 }
 

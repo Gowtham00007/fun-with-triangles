@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <nav>
+        <h1  id="navh1">Fun with Triangles</h1>
         <div>
             <a href="index.html">IS TRIANGLE</a>
-            <a href="index2.html">TRIANGLE QUIZ</a>
-            <a href="index3.html"> TRIANGLE HYPOTENUSE</a>
-            <a href="index4.html"> AREA OF TRIANGLE </a>
+            <a href="index2.html">QUIZ</a>
+            <a class="link-active" href="index3.html">HYPOTENUSE</a>
+            <a href="index4.html"> AREA</a>
         </div>
     </nav>
 
     <h1> Calculate Hypotenuse</h1>
+    <div id="hypotenuse-div">
     <label>a=</label>
     <input type="number" class="side-input"/>
     <label>b=</label>
     <input type="number" class="side-input"/>
+    </div>
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>
     <div id="output"></div>
 

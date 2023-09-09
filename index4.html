@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,20 +9,24 @@
 <body>
 
     <nav>
+        <h1  id="navh1">Fun with Triangles</h1>
         <div>
             <a href="index.html">IS TRIANGLE</a>
-            <a href="index2.html">TRIANGLE QUIZ</a>
-            <a href="index3.html"> TRIANGLE HYPOTENUSE</a>
-            <a href="index4.html"> AREA OF TRIANGLE </a>
+            <a href="index2.html">QUIZ</a>
+            <a href="index3.html"> HYPOTENUSE</a>
+            <a class="link-active" href="index4.html"> AREA</a>
         </div>
     </nav>
 
     <h1>Area of triangle</h1>
-
+<div class="area-div">
     <label>Base =</label>
     <input class="side" type="number" />
+    </div>
+    <div class="area-div">
     <label>Height =</label>
     <input class="side" type="number"/>
+    </div>
     <button id="calculate-area-btn">Calculate Area </button>
     <div id="output"></div>
 

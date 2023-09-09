@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+
+body{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+
+nav{
+    padding: 1rem;
+    background-color: #cbd5e1;
+    text-align: center;
+    margin: 1rem;
+    text-align: right;
+
+
+}
+
+#navh1{
+    text-align: left;
+}
+
+a{
+    color: black;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    
+}
+
+
+ nav .link-active {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.div1{
+    font-size: x-large;
+    margin: 2rem;
+}
+
+#is-triangle-btn{
+    font-family: Black Ops One;
+font-size: large;
+border-radius: 1rem;
+padding: 0.4rem;
+}
+
+.question-container{
+    margin: 4rem;
+    font-size: x-large;
+}
+
+#submit-answer-btn{
+    font-family: Black Ops One;
+    font-size: large;
+border-radius: 1rem;
+padding: 0.4rem;
+}
+
+#hypotenuse-div{
+    font-size: x-large;
+    margin: 1rem;
+}
+
+#hypotenuse-btn{
+    font-family: Black Ops One;
+    margin: 1rem;
+    font-size: large;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.area-div{
+    font-size: x-large;
+    margin: 1rem;
+}
+
+#calculate-area-btn{
+    font-family: Black Ops One;
+    margin: 1rem;
+    font-size: large;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+#output{
+    margin: 3rem;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
