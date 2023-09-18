@@ -3,7 +3,7 @@ const submitAnswerBtn = document.querySelector('#submit-answer-btn');
 const output = document.querySelector('#output');
 
 
-const correctAnswer =["90°","right angled"];
+const correctAnswer =["90°","right angled","Isosceles triangle","60 degrees"];
 
 function calculateScore(){
 let score=0;
